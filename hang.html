@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="utf-8">
+      <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="hang.css">
+   </head>
+   <body>
+      <div class="title">
+      <title>Hangman</title>
+      <h3>Current Word <span id="guess"></span></h3>
+      <h3 id="hints"></h3>
+      <div>
+         <h3> Press Play to get <i class="em em-fire"></i> </h3>
+         <audio controls>
+            <source src="gucci1.mp3" type="audio/mpeg">
+         </audio>
+         <div class="slump"></div>
+         <div class="score">
+            <span id="lives"></span></p>
+            <p>Incorrect <span id="lettersguess"></span></p>
+            <p>Wins <span id="wins"></span></s></p>
+            <p>Losses <span id="losses"></span></s></p>
+         </div>
+         <div id="letters"></div>
+         <p id="hints"></p>
+      </div>
+      <button id="reset-btn">Try Again</button>
+      <script type="text/javascript" src="hang.js"></script>
+   </body>

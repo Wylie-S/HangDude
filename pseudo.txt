@@ -1,0 +1,22 @@
+//PSEUDOCODE:
+//Have an array or words
+//pick a random word --Math.floor(Math.random() * word.length)
+//show how many letters are in the word
+  //for loop --> print word.length underscores
+//Take players guess and save with prompt and save to variable
+    //var =  prompt
+
+// Quit the game if the player wants to -- CLARIFY
+    //use confirm to confirm (boolean);
+//Check if guess exists in word
+    // .indexOf() !== -1 then its in the word
+//Keep track of letters guessed --
+  //create seperate array to keep track. and use the index to push the letter into the "_"
+//Show the players progress (all guesses so far)
+  //print seperate array of guesses
+//Finish when the player guessed the word
+  //if word === guessedWord then alert "Completed game" (1)
+        //promptwould you like to play again?(2)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+
+https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
